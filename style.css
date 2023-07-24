@@ -1,0 +1,149 @@
+
+
+
+/*Principal --------------- */
+
+
+/*Principal Fin--------------- */
+
+/*Banner --------------- */
+.banner{
+    text-align: center;
+}
+.texto-azul{
+    color: cornflowerblue;
+}
+/*menu principal botones con imagenes --------------- */
+.menu-principal{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6,1fr);
+}
+.ima-container-menu{
+    height: 30px;
+    padding: 5px;
+}
+.imagen-menu{
+    object-fit: contain;
+    height: 100%;
+}
+/*Banner Fin--------------- */
+
+/*Imagen Principal--------------- */
+.Gap-menu-imagen{
+    height: 10px; 
+}
+.principal-imagen-inicio-contenedor{
+    height: 620px;
+    padding: 2px;
+    row-gap: 20px;
+}
+.imagen-principal{
+    object-fit: contain;
+    height: 100%;
+}
+/*Fin Imagen Principal--------------- */
+
+
+/*Menu de cabañas con foto--------------- */
+.Gap-menu-imagen2{
+    height: 35px; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+.principal-menu-cabanas{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 400px);
+    column-gap: 10px;
+    row-gap: 50px;
+}
+.cabana-scrol{
+    display: grid;
+    column-gap: 2px;
+    row-gap: 0px;
+    
+}
+.contenedor-ima-cabana{
+    height: 200px;
+    padding: 0px;
+}
+.imagen-cabana{
+    object-fit: contain;
+    height: 100%;
+}
+.descripcion-cabana{
+    display: grid;
+    column-gap: 2px;
+    row-gap: 0px;
+}
+.contenedor-boton-carrito{
+    display: flex;
+    justify-content: center;
+}
+.boton-carrito{
+    color:darkslategrey;
+    margin: 10;
+    background-color: rgb(0, 191, 255);
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+.menu-lista{
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 30px;
+    line-height: 1.35em;
+    font-size: 15px;
+}
+.lista-titulo{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 2px;
+}
+.lista-precio{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.scrol1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.scrol2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.scrol3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.scrol4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.scrol5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.scrol6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+/*Menu de cabañas con foto Fin--------------- */
+
+/*Aserca de--------------- */
+.Gap-aserca-de{
+    height: 50px;
+}
+.Aserca-de{
+    height: 300px; 
+    background-color:gainsboro;
+}
